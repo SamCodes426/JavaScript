@@ -36,4 +36,7 @@ let myCreatedDate3 = new Date("13-9-2025")      //for dd-mm-yyyy format
 let myTimeStamp = Date.now()
 console.log(myTimeStamp);       //output: 1757763592931 (in miliseconds)
 
-console.log(Date.now()/1000);
+let newDate = new Date()
+newDate.toLocaleString('default',{
+    weekday:"long"
+})

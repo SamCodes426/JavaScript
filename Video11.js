@@ -34,11 +34,11 @@ const url = "https://samarpit.com/samar%20maurya"
 console.log(url.replace('%20','-'));    //replaces something with something 
 
 
-console.log(url.includes('samar'));
+console.log(url.includes('samar'));         //checks if the words is in the sentence
 
 
 let garage = "i have a car collection of 20 cars"
-console.log(garage.split(' '));
+console.log(garage.split(' '));                     // makes something into array
 
 
 
