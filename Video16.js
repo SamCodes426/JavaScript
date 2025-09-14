@@ -40,7 +40,7 @@ console.log(JsUser.greetings());
 
 
 JsUser.greetingsTwo = function(){
-    console.log(`Hello Js User ${this.name}`);
+    console.log(`Hello Js User ${this.name}`);      // this is used for the reference for JsUser 
     
 }
 console.log(JsUser.greetingsTwo());
