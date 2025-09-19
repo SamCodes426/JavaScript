@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sing is king</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const saySam = function(){
+        console.log("Samar");    
+    }
+    
+    
+    const changeText = function(){    
+    document.querySelector('h1').innerHTML = 'the best man on the earth'
+    }
+    
+    const changeMe = setTimeout(changeText,2000)
+
+    document.querySelector("#stop").addEventListener(function(e){
+        clearTimeout(changeMe)
+        console.log("STOPPED");
+        
+    })
+</script>
+</html>
